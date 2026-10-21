@@ -1,0 +1,22 @@
+{
+  "name": "ai-expense-tracker",
+  "version": "1.0.0",
+  "description": "Full-stack Advanced AI-Powered MERN Expense Tracker",
+  "scripts": {
+    "frontend:dev": "npm --prefix frontend run dev",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:start": "npm --prefix backend start",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "mern",
+    "expense-tracker",
+    "ai",
+    "gemini",
+    "recharts",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
