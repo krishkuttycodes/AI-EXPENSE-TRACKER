@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 // Get base URL from environment or fall back to localhost:5000/api
-const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
-
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://ai-expense-tracker-b91f.onrender.com/api';
 const api = axios.create({
   baseURL,
   timeout: 30000,
