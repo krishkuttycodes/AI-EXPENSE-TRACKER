@@ -93,7 +93,7 @@ export const Register = () => {
               id="name"
               name="name"
               type="text"
-              placeholder="e.g. Rahul Sharma"
+              placeholder="e.g. Krishna"
               className="form-control"
               value={form.name}
               onChange={handleChange}
