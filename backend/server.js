@@ -17,10 +17,12 @@ app.use(helmet());
 
 // CORS configuration
 const allowedOrigins = [
-  process.env.CLIENT_URL || 'http://localhost:5173',
-  'http://localhost:5173',
-  'http://127.0.0.1:5173',
+process.env.CLIENT_URL || 'http://localhost:5173',
+'http://localhost:5173',
+'http://127.0.0.1:5173',
+'https://ai-expense-tracker-1-ss5b.onrender.com',
 ];
+
 
 app.use(
   cors({
